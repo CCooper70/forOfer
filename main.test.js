@@ -1,6 +1,19 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+const countSpaces = function(str){
+  let count = 0;
+  for(let char of str){
+    if(char === " "){
+      count++
+    }
+  }return count
+}
+
+
+
+
+
 
 
 /*********************************
